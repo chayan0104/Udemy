@@ -6,12 +6,16 @@ import java.io.*;
 public class Test {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\mecha\\IdeaProjects\\Udemy\\src\\myfile.txt");
-        BufferedReader bufferReader = null; //assigning outside parameter
+
+//BufferedReader bufferReader = null; //assigning outside parameter
+//FileReader fileReader = null;
 
         //try catch
-        try {
-            FileReader fileReader = new FileReader(file);
-            bufferReader = new BufferedReader(fileReader);// reads as line
+        try(FileReader fileReader = new FileReader(file); //try will automatically close those files.
+        BufferedReader bufferReader = new BufferedReader(fileReader);) {
+
+//fileReader = new FileReader(file);
+//bufferReader = new BufferedReader(fileReader);// reads as line
 
             String line = bufferReader.readLine();
 
@@ -26,14 +30,20 @@ public class Test {
         } catch (IOException e){
             System.out.println("Problem reading the file" + file.getName());
 
-        }finally {
+        }
+        /*finally {
             try{
-                bufferReader.close();
+                if(bufferReader != null){
+                    bufferReader.close();
+                }
+                if(fileReader != null){
+                    fileReader.close();
+                }
+
             }catch (IOException e){
                 System.out.println("unable to close "+ file.getName()+ e);
             }
         }
-
-
+        */
     }
 }
