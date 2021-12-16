@@ -1,4 +1,5 @@
 package CollectionFramework.Travesing;
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 public class Traverse {
     public static void main(String[] args) {
@@ -14,6 +15,10 @@ public class Traverse {
 
         for (int i = 0; i < alist.size(); i++) {
             System.out.println(alist.get(i));
+        }
+        //or
+       for (String peoples : alist){
+            System.out.println(peoples);
         }
     }
 }
