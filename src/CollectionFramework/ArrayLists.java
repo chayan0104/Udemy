@@ -1,6 +1,7 @@
 package CollectionFramework;
+import java.util.ArrayList;
 
-public class ArrayList<S> {
+public class ArrayLists {
     public static void main(String args[]){
         //ArrayList<String> alist=new ArrayList<String>();
 

@@ -1,9 +1,9 @@
 package CollectionFramework;
-
-public class LinkedList {
+import java.util.LinkedList;
+public class LinkedLists {
     public static void main(String[] args) {
 
-        java.util.LinkedList<Integer> al = new java.util.LinkedList<Integer>();
+        LinkedList<Integer> al = new LinkedList<Integer>();
         al.add(10);
         al.add(20);
         al.add(30);

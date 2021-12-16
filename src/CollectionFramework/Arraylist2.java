@@ -1,9 +1,9 @@
 package CollectionFramework;
-
+import java.util.ArrayList;
 public class Arraylist2 {public static void main(String args[]){
-    //ArrayList<String> alist=new ArrayList<String>();
 
-    java.util.ArrayList<Integer> Items= new   java.util.ArrayList<Integer>();
+
+   ArrayList<Integer> Items= new   ArrayList<Integer>();
     Items.add(9);
     Items.add(6);
     Items.add(95);
