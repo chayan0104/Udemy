@@ -1,5 +1,4 @@
-package CollectionFramework.Travesing;
-import javax.sound.midi.Soundbank;
+package CollectionFramework.Traversing;
 import java.util.ArrayList;
 public class Traverse {
     public static void main(String[] args) {
