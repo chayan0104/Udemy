@@ -7,6 +7,7 @@ public class Traverse2 {
         //List<Vehicle> carList = new linkedList<Vehicle>(1000);
         //or
         ArrayList<Vehicle> carList = new ArrayList<Vehicle>(1000);
+
         carList.add(new Vehicle("Honda", "City", 12, true));
         //or
         Vehicle carList2 = new Vehicle("Tata", "Safari", 15, false);
