@@ -20,6 +20,8 @@ public class Merge {
 
         //merging
         alist.add(String.valueOf(blist));
+        //alist.clear();
+        //alist.removeAll(blist);
 
         //displaying elements
         System.out.println(alist);
