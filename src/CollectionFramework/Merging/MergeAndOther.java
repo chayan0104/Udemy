@@ -1,6 +1,6 @@
 package CollectionFramework.Merging;
 import java.util.ArrayList;
-public class Merge {
+public class MergeAndOther {
     public static void main(String args[]) {
         //ArrayList<String> alist=new ArrayList<String>();
 //list 1
@@ -22,6 +22,8 @@ public class Merge {
         alist.add(String.valueOf(blist));
         //alist.clear();
         //alist.removeAll(blist);
+//        boolean hasvalue = alist.contains("Pat");
+//        System.out.printf(String.valueOf(hasvalue));
 
         //displaying elements
         System.out.println(alist);
