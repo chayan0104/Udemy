@@ -1,4 +1,4 @@
-package CollectionFramework.HasSet;
+package CollectionFramework.HashSet;
 import java.util.HashSet;
 //it's basically used to prevent duplicate
 //hash set does not support duplicate and doesn't maintain order.
