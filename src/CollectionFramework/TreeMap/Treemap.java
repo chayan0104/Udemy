@@ -8,7 +8,7 @@ import java.util.TreeMap;
 public class Treemap {
     public static void main(String args[]){
         TreeMap<String, String> dictionary = new TreeMap<String, String>();
-
+// over riding of data is allowed in here
         dictionary.put("Brave " , "what you need");
         dictionary.put("courage" , "what you need");
         dictionary.put("bravo" , "what you need");
