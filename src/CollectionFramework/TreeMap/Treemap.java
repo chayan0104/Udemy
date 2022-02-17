@@ -20,9 +20,6 @@ public class Treemap {
             System.out.println(entry.getValue());
         }
 
-
-
-
     }
 
 }
