@@ -1,4 +1,4 @@
-package CollectionFramework.Traversing.PassingClass;
+package B_CollectionFramework.Traversing.PassingClass;
 
 public class Vehicle {
     String Manufacturer;

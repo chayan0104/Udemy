@@ -1,4 +1,4 @@
-package CollectionFramework.HashSet;
+package B_CollectionFramework.HashSet;
 import java.util.LinkedHashSet;
 
 //same as hashset but it maintains order

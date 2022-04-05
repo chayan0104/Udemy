@@ -1,4 +1,4 @@
-package CollectionFramework.Traversing.PassingClass;
+package B_CollectionFramework.Traversing.PassingClass;
 import java.util.ArrayList;
 //Here we are passing a class as a data item.
 

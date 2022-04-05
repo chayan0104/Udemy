@@ -1,4 +1,4 @@
-package CollectionFramework.Sorting;
+package B_CollectionFramework.Sorting;
 
 import java.util.*;
 import java.util.HashSet;

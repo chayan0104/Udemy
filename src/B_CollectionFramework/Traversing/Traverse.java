@@ -1,4 +1,4 @@
-package CollectionFramework.Traversing;
+package B_CollectionFramework.Traversing;
 import java.util.ArrayList;
 public class Traverse {
     public static void main(String[] args) {

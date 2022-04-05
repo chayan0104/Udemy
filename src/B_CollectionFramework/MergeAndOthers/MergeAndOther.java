@@ -1,4 +1,4 @@
-package CollectionFramework.MergeAndOthers;
+package B_CollectionFramework.MergeAndOthers;
 import java.util.ArrayList;
 public class MergeAndOther {
     public static void main(String args[]) {
